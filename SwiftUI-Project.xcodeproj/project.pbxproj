@@ -16,6 +16,10 @@
 		4578084223E6BC5100431E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4578084023E6BC5100431E92 /* LaunchScreen.storyboard */; };
 		4578084F23E6C39200431E92 /* ModelStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578084E23E6C39200431E92 /* ModelStatus.swift */; };
 		4578085123E6C66E00431E92 /* SwiftUIStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578085023E6C66E00431E92 /* SwiftUIStyle.swift */; };
+		4578085523E6DF3300431E92 /* IndexTopBarPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578085423E6DF3300431E92 /* IndexTopBarPart.swift */; };
+		4578085723E6E32800431E92 /* HistoryTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578085623E6E32800431E92 /* HistoryTutorialView.swift */; };
+		4578085923E6E57100431E92 /* FilterTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578085823E6E57100431E92 /* FilterTutorialView.swift */; };
+		4578085B23E6E8FB00431E92 /* PageMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578085A23E6E8FB00431E92 /* PageMessagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		4578084323E6BC5100431E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4578084E23E6C39200431E92 /* ModelStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelStatus.swift; sourceTree = "<group>"; };
 		4578085023E6C66E00431E92 /* SwiftUIStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStyle.swift; sourceTree = "<group>"; };
+		4578085423E6DF3300431E92 /* IndexTopBarPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexTopBarPart.swift; sourceTree = "<group>"; };
+		4578085623E6E32800431E92 /* HistoryTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTutorialView.swift; sourceTree = "<group>"; };
+		4578085823E6E57100431E92 /* FilterTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTutorialView.swift; sourceTree = "<group>"; };
+		4578085A23E6E8FB00431E92 /* PageMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMessagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		4578084A23E6C2DD00431E92 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				4578085223E6D07400431E92 /* IndexPageViews */,
+				4578085323E6D08900431E92 /* SubPageViews */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -122,6 +132,24 @@
 			children = (
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		4578085223E6D07400431E92 /* IndexPageViews */ = {
+			isa = PBXGroup;
+			children = (
+				4578085423E6DF3300431E92 /* IndexTopBarPart.swift */,
+				4578085623E6E32800431E92 /* HistoryTutorialView.swift */,
+				4578085823E6E57100431E92 /* FilterTutorialView.swift */,
+				4578085A23E6E8FB00431E92 /* PageMessagesView.swift */,
+			);
+			path = IndexPageViews;
+			sourceTree = "<group>";
+		};
+		4578085323E6D08900431E92 /* SubPageViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubPageViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,11 +224,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4578083323E6BC4E00431E92 /* AppDelegate.swift in Sources */,
+				4578085B23E6E8FB00431E92 /* PageMessagesView.swift in Sources */,
+				4578085923E6E57100431E92 /* FilterTutorialView.swift in Sources */,
 				4578085123E6C66E00431E92 /* SwiftUIStyle.swift in Sources */,
 				4578083523E6BC4E00431E92 /* SceneDelegate.swift in Sources */,
 				4578083A23E6BC4E00431E92 /* ContentView.swift in Sources */,
 				4578084F23E6C39200431E92 /* ModelStatus.swift in Sources */,
+				4578085723E6E32800431E92 /* HistoryTutorialView.swift in Sources */,
 				4578083823E6BC4E00431E92 /* SwiftUI_Project.xcdatamodeld in Sources */,
+				4578085523E6DF3300431E92 /* IndexTopBarPart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
