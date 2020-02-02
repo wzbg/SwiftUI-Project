@@ -20,6 +20,10 @@
 		4578085723E6E32800431E92 /* HistoryTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578085623E6E32800431E92 /* HistoryTutorialView.swift */; };
 		4578085923E6E57100431E92 /* FilterTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578085823E6E57100431E92 /* FilterTutorialView.swift */; };
 		4578085B23E6E8FB00431E92 /* PageMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578085A23E6E8FB00431E92 /* PageMessagesView.swift */; };
+		4578085D23E6EB7900431E92 /* IndexCategoryPartList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578085C23E6EB7900431E92 /* IndexCategoryPartList.swift */; };
+		4578085F23E6EDC100431E92 /* PageCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578085E23E6EDC100431E92 /* PageCategories.swift */; };
+		4578086123E7173900431E92 /* IndexClassListPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578086023E7173900431E92 /* IndexClassListPart.swift */; };
+		4578086323E718A500431E92 /* PageClassList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578086223E718A500431E92 /* PageClassList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		4578085623E6E32800431E92 /* HistoryTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTutorialView.swift; sourceTree = "<group>"; };
 		4578085823E6E57100431E92 /* FilterTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTutorialView.swift; sourceTree = "<group>"; };
 		4578085A23E6E8FB00431E92 /* PageMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMessagesView.swift; sourceTree = "<group>"; };
+		4578085C23E6EB7900431E92 /* IndexCategoryPartList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexCategoryPartList.swift; sourceTree = "<group>"; };
+		4578085E23E6EDC100431E92 /* PageCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCategories.swift; sourceTree = "<group>"; };
+		4578086023E7173900431E92 /* IndexClassListPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexClassListPart.swift; sourceTree = "<group>"; };
+		4578086223E718A500431E92 /* PageClassList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageClassList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +149,10 @@
 				4578085623E6E32800431E92 /* HistoryTutorialView.swift */,
 				4578085823E6E57100431E92 /* FilterTutorialView.swift */,
 				4578085A23E6E8FB00431E92 /* PageMessagesView.swift */,
+				4578085C23E6EB7900431E92 /* IndexCategoryPartList.swift */,
+				4578085E23E6EDC100431E92 /* PageCategories.swift */,
+				4578086023E7173900431E92 /* IndexClassListPart.swift */,
+				4578086223E718A500431E92 /* PageClassList.swift */,
 			);
 			path = IndexPageViews;
 			sourceTree = "<group>";
@@ -224,15 +236,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4578083323E6BC4E00431E92 /* AppDelegate.swift in Sources */,
+				4578086323E718A500431E92 /* PageClassList.swift in Sources */,
 				4578085B23E6E8FB00431E92 /* PageMessagesView.swift in Sources */,
+				4578085F23E6EDC100431E92 /* PageCategories.swift in Sources */,
 				4578085923E6E57100431E92 /* FilterTutorialView.swift in Sources */,
 				4578085123E6C66E00431E92 /* SwiftUIStyle.swift in Sources */,
 				4578083523E6BC4E00431E92 /* SceneDelegate.swift in Sources */,
+				4578086123E7173900431E92 /* IndexClassListPart.swift in Sources */,
 				4578083A23E6BC4E00431E92 /* ContentView.swift in Sources */,
 				4578084F23E6C39200431E92 /* ModelStatus.swift in Sources */,
 				4578085723E6E32800431E92 /* HistoryTutorialView.swift in Sources */,
 				4578083823E6BC4E00431E92 /* SwiftUI_Project.xcdatamodeld in Sources */,
 				4578085523E6DF3300431E92 /* IndexTopBarPart.swift in Sources */,
+				4578085D23E6EB7900431E92 /* IndexCategoryPartList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
