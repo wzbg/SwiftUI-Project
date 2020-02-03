@@ -42,7 +42,6 @@ struct IndexClassListPart: View {
                 Image(systemName: self.classImageList[i])
                   .font(.system(size: 101))
                 Text(self.classNameList[i])
-                  .foregroundColor(.gray)
                   .font(.system(size: 14))
                   .multilineTextAlignment(.center)
                   .offset(x: 0, y: 40)
@@ -52,7 +51,7 @@ struct IndexClassListPart: View {
                 self.status.tempStringValue = self.classNameList[i]
                 self.shouldPushClassList = true
               }
-            }
+            }.foregroundColor(.gray)
           }
         }.padding(.top, 10)
       }.padding(.leading, 20)

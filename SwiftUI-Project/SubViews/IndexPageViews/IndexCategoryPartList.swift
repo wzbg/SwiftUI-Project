@@ -25,11 +25,11 @@ struct IndexCategoryPartList: View {
             endPoint: .trailing))
           .offset(x: 20, y: 0)
         ScrollView(.horizontal, showsIndicators: false) {
-          HStack(alignment: .center, spacing: 20) {
+          HStack(alignment: .center, spacing: 30) {
             NavigationLink(destination: PageCategories(title: "设 计")) {
               VStack {
                 Image(systemName: "pencil.and.outline")
-                  .font(.system(size: 70))
+                  .font(.system(size: 60))
                   .padding(.bottom, 20)
                 Text("设 计")
                   .font(.system(size: 14))
@@ -38,7 +38,7 @@ struct IndexCategoryPartList: View {
             NavigationLink(destination: PageCategories(title: "编 程")) {
               VStack {
                 Image(systemName: "keyboard")
-                  .font(.system(size: 70))
+                  .font(.system(size: 60))
                   .padding(.bottom, 20)
                 Text("编 程")
                   .font(.system(size: 14))
@@ -47,7 +47,7 @@ struct IndexCategoryPartList: View {
             NavigationLink(destination: PageCategories(title: "办 公")) {
               VStack {
                 Image(systemName: "doc.on.doc")
-                  .font(.system(size: 70))
+                  .font(.system(size: 60))
                   .padding(.bottom, 20)
                 Text("办 公")
                   .font(.system(size: 14))
@@ -56,7 +56,7 @@ struct IndexCategoryPartList: View {
             NavigationLink(destination: PageCategories(title: "其 他")) {
               VStack {
                 Image(systemName: "globe")
-                  .font(.system(size: 70))
+                  .font(.system(size: 60))
                   .padding(.bottom, 20)
                 Text("其 他")
                   .font(.system(size: 14))

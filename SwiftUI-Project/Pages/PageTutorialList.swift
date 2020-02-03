@@ -1,14 +1,14 @@
 //
-//  PageCategories.swift
+//  PageTutorialList.swift
 //  SwiftUI-Project
 //
-//  Created by huanbing on 2020/2/2.
+//  Created by huanbing on 2020/2/3.
 //  Copyright © 2020 unrealce. All rights reserved.
 //
 
 import SwiftUI
 
-struct PageCategories: View {
+struct PageTutorialList: View {
   var title: String
   
   var body: some View {
@@ -16,8 +16,8 @@ struct PageCategories: View {
   }
 }
 
-struct PageCategories_Previews: PreviewProvider {
+struct PageTutorialList_Previews: PreviewProvider {
   static var previews: some View {
-    PageCategories(title: "测 试")
+    PageTutorialList(title: "测试主题名称")
   }
 }
