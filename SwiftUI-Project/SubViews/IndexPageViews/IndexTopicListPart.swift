@@ -42,6 +42,7 @@ struct IndexTopicListPart: View {
                   .renderingMode(.original)
                   .resizable()
                   .scaledToFit()
+                  .cornerRadius(5)
                   .frame(height: 100)
                 Text(self.topicsNameList[i])
                   .foregroundColor(.white)

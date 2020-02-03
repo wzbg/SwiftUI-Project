@@ -10,7 +10,28 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    PageViewIndex()
+    TabView {
+      PageViewIndex()
+        .tabItem {
+          Image(systemName: "house.fill")
+          Text("首页")
+        }
+      PageTestList()
+        .tabItem {
+          Image(systemName: "pencil.and.ellipsis.rectangle")
+          Text("刷题")
+        }
+      PageAssistant()
+        .tabItem {
+          Image(systemName: "bubble.left.and.bubble.right.fill")
+          Text("客服")
+        }
+      PageProfile()
+        .tabItem {
+          Image(systemName: "gear")
+          Text("档案")
+        }
+    }
   }
 }
 
