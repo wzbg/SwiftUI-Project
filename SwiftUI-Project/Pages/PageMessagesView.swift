@@ -45,7 +45,7 @@ struct SubPageMessageRow: View {
   var color: Color
   var sequence: Int
   
-   @State private var isAnimating = false
+  @State private var isAnimating = false
   
   var body: some View {
     HStack {
