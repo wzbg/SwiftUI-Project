@@ -29,7 +29,7 @@ struct IndexClassListPart: View {
   
   var body: some View {
     VStack(alignment: .leading) {
-      Text("课程类别")
+      Text("班级列表")
         .font(.system(size: 16))
         .padding(.leading, 20)
         .foregroundColor(Color(red: 0.4, green: 0.4, blue: 0.4))

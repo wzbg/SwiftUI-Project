@@ -27,7 +27,7 @@ struct IndexTopBarPart: View {
           .stroke(lineWidth: 1)
           .fill(Color(red: 0.9, green: 0.9, blue: 0.9))
           .frame(height: 30)
-        TextField("教程名称", text: $tutorialName)
+        TextField("课程名称", text: $tutorialName)
           .padding(5)
           .cornerRadius(5)
           .font(.system(size: 14))
