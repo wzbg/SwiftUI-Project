@@ -17,8 +17,8 @@ struct IndexTopBarPart: View {
     HStack {
       NavigationLink(destination: HistoryTutorialView()) {
         Image(systemName: "list.bullet")
-        .font(.system(size: 22))
-        .foregroundColor(.gray)
+          .font(.system(size: 22))
+          .foregroundColor(.gray)
       }
       Spacer()
         .frame(width: 20)

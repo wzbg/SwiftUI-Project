@@ -8,6 +8,9 @@
 
 import SwiftUI
 
+let screenWidth = UIScreen.main.bounds.width
+let screenHeight = UIScreen.main.bounds.height
+
 let darkGrayColor = Color(red: 0.3, green: 0.3, blue: 0.3)
 let orangeColor = Color(red: 255/255, green: 123/255, blue: 109/255)
 
@@ -23,6 +26,14 @@ struct MiddleTitle: ViewModifier {
   func body(content: Content) -> some View {
     content
       .font(.system(size: 20))
+      .foregroundColor(darkGrayColor)
+  }
+}
+
+struct SubTitle: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .font(.system(size: 13))
       .foregroundColor(darkGrayColor)
   }
 }
@@ -89,5 +100,22 @@ struct LoadingTitle: ViewModifier {
 struct SmallText: ViewModifier {
   func body(content: Content) -> some View {
     content
+  }
+}
+
+struct RedNumberSmall: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .foregroundColor(.red)
+  }
+}
+
+struct SubPageContainer: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .padding(.horizontal)
+      .padding(.top)
+      .navigationBarTitle("")
+      .navigationBarHidden(true)
   }
 }
