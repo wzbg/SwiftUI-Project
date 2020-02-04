@@ -11,12 +11,9 @@ import SwiftUI
 struct PageAssistant: View {
   @State private var newMessage = ""
   @State private var isPresented = false
+  @State private var isAnimating = false
   
   @ObservedObject var model = FetchModelMessageList()
-  
-  var alert: Alert {
-    Alert(title: Text("请输入信息"))
-  }
   
   var body: some View {
     VStack(alignment: .leading, spacing: 10) {
@@ -27,13 +24,46 @@ struct PageAssistant: View {
         Text("加载中...")
       } else {
         ScrollView(.vertical, showsIndicators: false) {
-          ForEach(0 ..< model.items.count) {
-            Text("\($0)")
-          }.padding(10)
-        }.padding(.leading, 25)
+          ForEach(model.items, id: \.self) {
+            SubPageComment(message: $0.message, isFromUser: $0.isFromUser == 1)
+          }.padding(.horizontal, 20)
+        }.modifier(SpringAnimationStyle(isAnimating: $isAnimating, delay: 0.3))
+      }
+      HStack {
+        ZStack {
+          RoundedRectangle(cornerRadius: 6)
+            .stroke(lineWidth: 1)
+            .fill(Color.black.opacity(0.2))
+            .frame(height: 36)
+          TextField("新消息", text: $newMessage)
+            .font(.system(size: 16))
+            .padding(8)
+        }.padding(.trailing, 5)
+        Image(systemName: "return")
+          .font(.system(size: 14))
+          .foregroundColor(.gray)
+          .onTapGesture {
+            if self.newMessage.isEmpty {
+              self.isPresented = true
+              return
+            }
+            self.model.items.insert(ModelMessage(
+              message: self.newMessage,
+              postDate: "\(Date())",
+              isFromUser: 1
+            ), at: 0)
+            self.newMessage = ""
+          }
+      }.padding()
+      .modifier(SpringAnimationStyle(isAnimating: $isAnimating, delay: 0.4))
+      .alert(isPresented: $isPresented) {
+        Alert(title: Text("请输入消息"))
       }
     }.modifier(SubPageContainer())
-    .onAppear(perform: model.fetch)
+    .onAppear {
+      self.model.fetch()
+      self.isAnimating = true
+    }
   }
 }
 
