@@ -14,7 +14,7 @@ struct PageTestList: View {
   var body: some View {
     NavigationView {
       VStack(alignment: .leading, spacing: 0) {
-        SubPageTopTitle(title: "刷 题", subTitle: "数千道题来提高你的技术", withArrow: false)
+        SubPageTopTitle(title: "刷 题", subTitle: "数千道题来提高你的技能", withArrow: false)
         if model.items.count == 0 {
           Text("加载中...")
         } else {

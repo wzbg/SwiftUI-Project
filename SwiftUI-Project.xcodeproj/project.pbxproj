@@ -47,6 +47,13 @@
 		45EFB83C23E95B6200701988 /* ModelMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB83B23E95B6200701988 /* ModelMessage.swift */; };
 		45EFB83E23E95C4100701988 /* FetchModelMessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB83D23E95C4100701988 /* FetchModelMessageList.swift */; };
 		45EFB84023E965DD00701988 /* SubPageComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB83F23E965DD00701988 /* SubPageComment.swift */; };
+		45EFB84223E9816500701988 /* ModelProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB84123E9816500701988 /* ModelProfile.swift */; };
+		45EFB84423E9991000701988 /* SubPageProfileStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB84323E9991000701988 /* SubPageProfileStatic.swift */; };
+		45EFB84623E99D5800701988 /* SubPageProfileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB84523E99D5800701988 /* SubPageProfileRow.swift */; };
+		45EFB84823E9A58800701988 /* PageProfileSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB84723E9A58800701988 /* PageProfileSubscription.swift */; };
+		45EFB84A23E9A5D500701988 /* PageProfileSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB84923E9A5D500701988 /* PageProfileSkills.swift */; };
+		45EFB84C23E9A60D00701988 /* PageProfileClearCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB84B23E9A60D00701988 /* PageProfileClearCache.swift */; };
+		45EFB84E23E9A79800701988 /* PageProfileDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB84D23E9A79800701988 /* PageProfileDownload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +99,13 @@
 		45EFB83B23E95B6200701988 /* ModelMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMessage.swift; sourceTree = "<group>"; };
 		45EFB83D23E95C4100701988 /* FetchModelMessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchModelMessageList.swift; sourceTree = "<group>"; };
 		45EFB83F23E965DD00701988 /* SubPageComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPageComment.swift; sourceTree = "<group>"; };
+		45EFB84123E9816500701988 /* ModelProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProfile.swift; sourceTree = "<group>"; };
+		45EFB84323E9991000701988 /* SubPageProfileStatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPageProfileStatic.swift; sourceTree = "<group>"; };
+		45EFB84523E99D5800701988 /* SubPageProfileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPageProfileRow.swift; sourceTree = "<group>"; };
+		45EFB84723E9A58800701988 /* PageProfileSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageProfileSubscription.swift; path = "SwiftUI-Project/SubViews/SubPageViews/PageProfileSubscription.swift"; sourceTree = SOURCE_ROOT; };
+		45EFB84923E9A5D500701988 /* PageProfileSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageProfileSkills.swift; sourceTree = "<group>"; };
+		45EFB84B23E9A60D00701988 /* PageProfileClearCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageProfileClearCache.swift; sourceTree = "<group>"; };
+		45EFB84D23E9A79800701988 /* PageProfileDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageProfileDownload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +199,7 @@
 				45DA1BC223E8721E003B98B1 /* ModelQuiz.swift */,
 				45DA1BCC23E93C78003B98B1 /* ModelQuizDetail.swift */,
 				45EFB83B23E95B6200701988 /* ModelMessage.swift */,
+				45EFB84123E9816500701988 /* ModelProfile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +243,8 @@
 				45DA1BAE23E8069B003B98B1 /* SubPageTopTitle.swift */,
 				45DA1BC623E87664003B98B1 /* SubPageTestRow.swift */,
 				45EFB83F23E965DD00701988 /* SubPageComment.swift */,
+				45EFB84323E9991000701988 /* SubPageProfileStatic.swift */,
+				45EFB84523E99D5800701988 /* SubPageProfileRow.swift */,
 			);
 			path = SubPageViews;
 			sourceTree = "<group>";
@@ -245,6 +262,10 @@
 			isa = PBXGroup;
 			children = (
 				45DA1BBE23E866BB003B98B1 /* PageProfile.swift */,
+				45EFB84723E9A58800701988 /* PageProfileSubscription.swift */,
+				45EFB84923E9A5D500701988 /* PageProfileSkills.swift */,
+				45EFB84B23E9A60D00701988 /* PageProfileClearCache.swift */,
+				45EFB84D23E9A79800701988 /* PageProfileDownload.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -330,7 +351,11 @@
 				4578086323E718A500431E92 /* PageClassList.swift in Sources */,
 				45DA1BB723E81ACE003B98B1 /* ModelNews.swift in Sources */,
 				4578085B23E6E8FB00431E92 /* PageMessagesView.swift in Sources */,
+				45EFB84E23E9A79800701988 /* PageProfileDownload.swift in Sources */,
+				45EFB84623E99D5800701988 /* SubPageProfileRow.swift in Sources */,
+				45EFB84C23E9A60D00701988 /* PageProfileClearCache.swift in Sources */,
 				4578085F23E6EDC100431E92 /* PageCategories.swift in Sources */,
+				45EFB84223E9816500701988 /* ModelProfile.swift in Sources */,
 				45DA1BA923E7F184003B98B1 /* AnimationStyle.swift in Sources */,
 				45EFB83C23E95B6200701988 /* ModelMessage.swift in Sources */,
 				4578085923E6E57100431E92 /* FilterTutorialView.swift in Sources */,
@@ -340,6 +365,7 @@
 				4578083A23E6BC4E00431E92 /* ContentView.swift in Sources */,
 				4578084F23E6C39200431E92 /* ModelStatus.swift in Sources */,
 				45DA1BBF23E866BB003B98B1 /* PageProfile.swift in Sources */,
+				45EFB84423E9991000701988 /* SubPageProfileStatic.swift in Sources */,
 				4578085723E6E32800431E92 /* HistoryTutorialView.swift in Sources */,
 				4578083823E6BC4E00431E92 /* SwiftUI_Project.xcdatamodeld in Sources */,
 				45DA1BB923E81BE6003B98B1 /* FetchModelNewsList.swift in Sources */,
@@ -349,11 +375,13 @@
 				45DA1BC523E872F8003B98B1 /* FetchModelQuizList.swift in Sources */,
 				45DA1BA723E7EAD0003B98B1 /* PageViewIndex.swift in Sources */,
 				45DA1BB323E8096B003B98B1 /* TutorialRow.swift in Sources */,
+				45EFB84A23E9A5D500701988 /* PageProfileSkills.swift in Sources */,
 				45DA1BBD23E86689003B98B1 /* PageTestList.swift in Sources */,
 				45DA1BB123E80764003B98B1 /* PageTutorialDetail.swift in Sources */,
 				4578085D23E6EB7900431E92 /* IndexCategoryPartList.swift in Sources */,
 				45DA1B8823E7DA3F003B98B1 /* PageTutorialList.swift in Sources */,
 				45DA1BAB23E7F3BB003B98B1 /* ModelTutorial.swift in Sources */,
+				45EFB84823E9A58800701988 /* PageProfileSubscription.swift in Sources */,
 				45DA1B8623E7D8B2003B98B1 /* IndexTopicListPart.swift in Sources */,
 				45DA1BCB23E936AF003B98B1 /* PageTestDetail.swift in Sources */,
 				45DA1BCD23E93C78003B98B1 /* ModelQuizDetail.swift in Sources */,

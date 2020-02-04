@@ -125,6 +125,15 @@ struct LittleStar: ViewModifier {
   }
 }
 
+struct StaticText: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .foregroundColor(.white)
+      .font(.largeTitle)
+      .padding(10)
+  }
+}
+
 struct SubPageContainer: ViewModifier {
   func body(content: Content) -> some View {
     content
