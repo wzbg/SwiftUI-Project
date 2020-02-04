@@ -32,8 +32,8 @@ struct PageTestDetail: View {
           Spacer()
         }
         VStack(alignment: .leading, spacing: 20) {
-          ForEach(0 ..< model.item!.option.count) { i in
-            Text("\(i).\(self.model.item!.option[i]))")
+          ForEach(0 ..< model.item!.options.count) { i in
+            Text("\(i).\(self.model.item!.options[i]))")
               .multilineTextAlignment(.leading)
               .modifier(RegularTitleOption(isHighlight: self.selectedItem == i+1))
               .onTapGesture {

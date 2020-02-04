@@ -8,7 +8,7 @@
 
 struct ModelQuizDetail: Codable, Hashable {
   var question: String
-  var option: [String]
+  var options: [String]
   var answer: Int
 }
 
