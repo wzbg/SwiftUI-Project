@@ -6,7 +6,7 @@
 //  Copyright © 2020 unrealce. All rights reserved.
 //
 
-import SwiftUI
+import Foundation
 
 class ModelStatus: ObservableObject {
   @Published var tempStringValue = ""

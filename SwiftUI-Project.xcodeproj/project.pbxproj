@@ -44,6 +44,9 @@
 		45DA1BCB23E936AF003B98B1 /* PageTestDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BCA23E936AF003B98B1 /* PageTestDetail.swift */; };
 		45DA1BCD23E93C78003B98B1 /* ModelQuizDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BCC23E93C78003B98B1 /* ModelQuizDetail.swift */; };
 		45DA1BCF23E93DB6003B98B1 /* FetchModelQuizDetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BCE23E93DB6003B98B1 /* FetchModelQuizDetailList.swift */; };
+		45EFB83C23E95B6200701988 /* ModelMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB83B23E95B6200701988 /* ModelMessage.swift */; };
+		45EFB83E23E95C4100701988 /* FetchModelMessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB83D23E95C4100701988 /* FetchModelMessageList.swift */; };
+		45EFB84023E965DD00701988 /* SubPageComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB83F23E965DD00701988 /* SubPageComment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +89,9 @@
 		45DA1BCA23E936AF003B98B1 /* PageTestDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTestDetail.swift; sourceTree = "<group>"; };
 		45DA1BCC23E93C78003B98B1 /* ModelQuizDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelQuizDetail.swift; sourceTree = "<group>"; };
 		45DA1BCE23E93DB6003B98B1 /* FetchModelQuizDetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchModelQuizDetailList.swift; sourceTree = "<group>"; };
+		45EFB83B23E95B6200701988 /* ModelMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMessage.swift; sourceTree = "<group>"; };
+		45EFB83D23E95C4100701988 /* FetchModelMessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchModelMessageList.swift; sourceTree = "<group>"; };
+		45EFB83F23E965DD00701988 /* SubPageComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPageComment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +184,7 @@
 				45DA1BB623E81ACE003B98B1 /* ModelNews.swift */,
 				45DA1BC223E8721E003B98B1 /* ModelQuiz.swift */,
 				45DA1BCC23E93C78003B98B1 /* ModelQuizDetail.swift */,
+				45EFB83B23E95B6200701988 /* ModelMessage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -197,6 +204,7 @@
 				45DA1BB823E81BE6003B98B1 /* FetchModelNewsList.swift */,
 				45DA1BC423E872F8003B98B1 /* FetchModelQuizList.swift */,
 				45DA1BCE23E93DB6003B98B1 /* FetchModelQuizDetailList.swift */,
+				45EFB83D23E95C4100701988 /* FetchModelMessageList.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 				45DA1BB223E8096B003B98B1 /* TutorialRow.swift */,
 				45DA1BAE23E8069B003B98B1 /* SubPageTopTitle.swift */,
 				45DA1BC623E87664003B98B1 /* SubPageTestRow.swift */,
+				45EFB83F23E965DD00701988 /* SubPageComment.swift */,
 			);
 			path = SubPageViews;
 			sourceTree = "<group>";
@@ -311,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45EFB84023E965DD00701988 /* SubPageComment.swift in Sources */,
 				45DA1BC723E87664003B98B1 /* SubPageTestRow.swift in Sources */,
 				45DA1BC923E88184003B98B1 /* CommonStarList.swift in Sources */,
 				45DA1BAF23E8069B003B98B1 /* SubPageTopTitle.swift in Sources */,
@@ -322,6 +332,7 @@
 				4578085B23E6E8FB00431E92 /* PageMessagesView.swift in Sources */,
 				4578085F23E6EDC100431E92 /* PageCategories.swift in Sources */,
 				45DA1BA923E7F184003B98B1 /* AnimationStyle.swift in Sources */,
+				45EFB83C23E95B6200701988 /* ModelMessage.swift in Sources */,
 				4578085923E6E57100431E92 /* FilterTutorialView.swift in Sources */,
 				4578085123E6C66E00431E92 /* SwiftUIStyle.swift in Sources */,
 				4578083523E6BC4E00431E92 /* SceneDelegate.swift in Sources */,
@@ -332,6 +343,7 @@
 				4578085723E6E32800431E92 /* HistoryTutorialView.swift in Sources */,
 				4578083823E6BC4E00431E92 /* SwiftUI_Project.xcdatamodeld in Sources */,
 				45DA1BB923E81BE6003B98B1 /* FetchModelNewsList.swift in Sources */,
+				45EFB83E23E95C4100701988 /* FetchModelMessageList.swift in Sources */,
 				4578085523E6DF3300431E92 /* IndexTopBarPart.swift in Sources */,
 				45DA1BCF23E93DB6003B98B1 /* FetchModelQuizDetailList.swift in Sources */,
 				45DA1BC523E872F8003B98B1 /* FetchModelQuizList.swift in Sources */,
