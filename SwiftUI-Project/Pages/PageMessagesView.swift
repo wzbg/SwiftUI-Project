@@ -26,9 +26,9 @@ struct PageMessagesView: View {
               sequence: $0
             )
           }.padding(10)
-        }.modifier(SubPageContainer())
+        }.padding(.leading, 25)
       }
-    }.padding(.leading, 25)
+    }.modifier(SubPageContainer())
     .onAppear(perform: model.fetch)
   }
 }
