@@ -134,6 +134,68 @@ struct StaticText: ViewModifier {
   }
 }
 
+struct VipDateTitleEnable: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .foregroundColor(.red)
+  }
+}
+
+struct VipDateCurrencyEnable: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .foregroundColor(.red)
+  }
+}
+
+struct VipDatePriceEnable: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .foregroundColor(.red)
+      .font(.largeTitle)
+  }
+}
+
+struct VipDateRangeEnable: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .padding(.horizontal)
+      .background(Color.red)
+      .foregroundColor(.white)
+  }
+}
+
+struct VipDateTitleDisable: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .foregroundColor(.gray)
+  }
+}
+
+struct VipDateCurrencyDisable: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .foregroundColor(.gray)
+  }
+}
+
+struct VipDatePriceDisable: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .foregroundColor(.gray)
+      .font(.largeTitle)
+  }
+}
+
+struct VipDateRangeDisable: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .padding(.horizontal)
+      .background(Color.gray)
+      .foregroundColor(.white)
+  }
+}
+
 struct SubPageContainer: ViewModifier {
   func body(content: Content) -> some View {
     content

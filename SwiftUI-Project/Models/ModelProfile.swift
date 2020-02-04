@@ -16,7 +16,7 @@ struct ModelProfile: Hashable {
 }
 
 let profileList = [
-  ModelProfile(icon: "shift", color: .blue, title: "升 级", messageCount: 0),
+  ModelProfile(icon: "shift", color: .blue, title: "订 阅", messageCount: 0),
   ModelProfile(icon: "folder", color: .orange, title: "收 藏", messageCount: 99),
   ModelProfile(icon: "person", color: .yellow, title: "技 能", messageCount: 8),
   ModelProfile(icon: "square.and.arrow.down.on.square", color: .green, title: "下 载", messageCount: 0),

@@ -9,8 +9,12 @@
 import SwiftUI
 
 struct PageProfileSubscription: View {
+  @State private var selectedItem = subscriptionList[0]
+  
   var body: some View {
-    Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    VStack {
+      SubPageTopTitle(title: "订 阅", subTitle: "雾の会员")
+    }
   }
 }
 
