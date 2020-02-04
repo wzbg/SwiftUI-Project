@@ -15,10 +15,10 @@ struct PageMessagesView: View {
   var body: some View {
     VStack(alignment: .leading, spacing: 0) {
       SubPageTopTitle(title: "新 闻", subTitle: "最多显示100条新闻")
-      ScrollView {
-        if model.items.count == 0 {
-          Text("加载中...")
-        } else {
+      if model.items.count == 0 {
+        Text("加载中...")
+      } else {
+        ScrollView(.vertical, showsIndicators: false) {
           ForEach(0 ..< model.items.count) {
             SubPageMessageRow(
               model: self.model.items[$0],
@@ -26,9 +26,9 @@ struct PageMessagesView: View {
               sequence: $0
             )
           }.padding(10)
-        }
-      }.padding(.leading, 25)
-      }.modifier(SubPageContainer())
+        }.modifier(SubPageContainer())
+      }
+    }.padding(.leading, 25)
     .onAppear(perform: model.fetch)
   }
 }

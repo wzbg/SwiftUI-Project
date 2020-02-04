@@ -100,10 +100,25 @@ struct LoadingTitle: ViewModifier {
 struct SmallText: ViewModifier {
   func body(content: Content) -> some View {
     content
+      .foregroundColor(.gray)
+  }
+}
+
+struct RedNumber: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .foregroundColor(.red)
   }
 }
 
 struct RedNumberSmall: ViewModifier {
+  func body(content: Content) -> some View {
+    content
+      .foregroundColor(.red)
+  }
+}
+
+struct LittleStar: ViewModifier {
   func body(content: Content) -> some View {
     content
       .foregroundColor(.red)

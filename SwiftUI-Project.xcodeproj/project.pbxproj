@@ -34,10 +34,14 @@
 		45DA1BB323E8096B003B98B1 /* TutorialRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BB223E8096B003B98B1 /* TutorialRow.swift */; };
 		45DA1BB723E81ACE003B98B1 /* ModelNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BB623E81ACE003B98B1 /* ModelNews.swift */; };
 		45DA1BB923E81BE6003B98B1 /* FetchModelNewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BB823E81BE6003B98B1 /* FetchModelNewsList.swift */; };
-		45DA1BBB23E82152003B98B1 /* ModelNewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BBA23E82152003B98B1 /* ModelNewsList.swift */; };
 		45DA1BBD23E86689003B98B1 /* PageTestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BBC23E86689003B98B1 /* PageTestList.swift */; };
 		45DA1BBF23E866BB003B98B1 /* PageProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BBE23E866BB003B98B1 /* PageProfile.swift */; };
 		45DA1BC123E86742003B98B1 /* PageAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BC023E86742003B98B1 /* PageAssistant.swift */; };
+		45DA1BC323E8721E003B98B1 /* ModelQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BC223E8721E003B98B1 /* ModelQuiz.swift */; };
+		45DA1BC523E872F8003B98B1 /* FetchModelQuizList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BC423E872F8003B98B1 /* FetchModelQuizList.swift */; };
+		45DA1BC723E87664003B98B1 /* SubPageTestRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BC623E87664003B98B1 /* SubPageTestRow.swift */; };
+		45DA1BC923E88184003B98B1 /* CommonStarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BC823E88184003B98B1 /* CommonStarList.swift */; };
+		45DA1BCB23E936AF003B98B1 /* PageTestDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA1BCA23E936AF003B98B1 /* PageTestDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,10 +74,14 @@
 		45DA1BB223E8096B003B98B1 /* TutorialRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialRow.swift; sourceTree = "<group>"; };
 		45DA1BB623E81ACE003B98B1 /* ModelNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelNews.swift; sourceTree = "<group>"; };
 		45DA1BB823E81BE6003B98B1 /* FetchModelNewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchModelNewsList.swift; sourceTree = "<group>"; };
-		45DA1BBA23E82152003B98B1 /* ModelNewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelNewsList.swift; sourceTree = "<group>"; };
 		45DA1BBC23E86689003B98B1 /* PageTestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTestList.swift; sourceTree = "<group>"; };
 		45DA1BBE23E866BB003B98B1 /* PageProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageProfile.swift; sourceTree = "<group>"; };
 		45DA1BC023E86742003B98B1 /* PageAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageAssistant.swift; sourceTree = "<group>"; };
+		45DA1BC223E8721E003B98B1 /* ModelQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelQuiz.swift; sourceTree = "<group>"; };
+		45DA1BC423E872F8003B98B1 /* FetchModelQuizList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchModelQuizList.swift; sourceTree = "<group>"; };
+		45DA1BC623E87664003B98B1 /* SubPageTestRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPageTestRow.swift; sourceTree = "<group>"; };
+		45DA1BC823E88184003B98B1 /* CommonStarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStarList.swift; sourceTree = "<group>"; };
+		45DA1BCA23E936AF003B98B1 /* PageTestDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTestDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +172,7 @@
 				4578084E23E6C39200431E92 /* ModelStatus.swift */,
 				45DA1BAA23E7F3BB003B98B1 /* ModelTutorial.swift */,
 				45DA1BB623E81ACE003B98B1 /* ModelNews.swift */,
-				45DA1BBA23E82152003B98B1 /* ModelNewsList.swift */,
+				45DA1BC223E8721E003B98B1 /* ModelQuiz.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				45DA1BB823E81BE6003B98B1 /* FetchModelNewsList.swift */,
+				45DA1BC423E872F8003B98B1 /* FetchModelQuizList.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -202,6 +211,8 @@
 			children = (
 				45DA1BB223E8096B003B98B1 /* TutorialRow.swift */,
 				45DA1BAE23E8069B003B98B1 /* SubPageTopTitle.swift */,
+				45DA1BC823E88184003B98B1 /* CommonStarList.swift */,
+				45DA1BCA23E936AF003B98B1 /* PageTestDetail.swift */,
 			);
 			path = SubPageViews;
 			sourceTree = "<group>";
@@ -210,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				45DA1BBC23E86689003B98B1 /* PageTestList.swift */,
+				45DA1BC623E87664003B98B1 /* SubPageTestRow.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -293,14 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DA1BC723E87664003B98B1 /* SubPageTestRow.swift in Sources */,
+				45DA1BC923E88184003B98B1 /* CommonStarList.swift in Sources */,
 				45DA1BAF23E8069B003B98B1 /* SubPageTopTitle.swift in Sources */,
+				45DA1BC323E8721E003B98B1 /* ModelQuiz.swift in Sources */,
 				45DA1BC123E86742003B98B1 /* PageAssistant.swift in Sources */,
 				4578083323E6BC4E00431E92 /* AppDelegate.swift in Sources */,
 				4578086323E718A500431E92 /* PageClassList.swift in Sources */,
 				45DA1BB723E81ACE003B98B1 /* ModelNews.swift in Sources */,
 				4578085B23E6E8FB00431E92 /* PageMessagesView.swift in Sources */,
 				4578085F23E6EDC100431E92 /* PageCategories.swift in Sources */,
-				45DA1BBB23E82152003B98B1 /* ModelNewsList.swift in Sources */,
 				45DA1BA923E7F184003B98B1 /* AnimationStyle.swift in Sources */,
 				4578085923E6E57100431E92 /* FilterTutorialView.swift in Sources */,
 				4578085123E6C66E00431E92 /* SwiftUIStyle.swift in Sources */,
@@ -313,6 +327,7 @@
 				4578083823E6BC4E00431E92 /* SwiftUI_Project.xcdatamodeld in Sources */,
 				45DA1BB923E81BE6003B98B1 /* FetchModelNewsList.swift in Sources */,
 				4578085523E6DF3300431E92 /* IndexTopBarPart.swift in Sources */,
+				45DA1BC523E872F8003B98B1 /* FetchModelQuizList.swift in Sources */,
 				45DA1BA723E7EAD0003B98B1 /* PageViewIndex.swift in Sources */,
 				45DA1BB323E8096B003B98B1 /* TutorialRow.swift in Sources */,
 				45DA1BBD23E86689003B98B1 /* PageTestList.swift in Sources */,
@@ -321,6 +336,7 @@
 				45DA1B8823E7DA3F003B98B1 /* PageTutorialList.swift in Sources */,
 				45DA1BAB23E7F3BB003B98B1 /* ModelTutorial.swift in Sources */,
 				45DA1B8623E7D8B2003B98B1 /* IndexTopicListPart.swift in Sources */,
+				45DA1BCB23E936AF003B98B1 /* PageTestDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

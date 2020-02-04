@@ -11,3 +11,7 @@ struct ModelNews: Codable, Hashable {
   var subTitle: String
   var postDate: String
 }
+
+struct ModelNewsList: Codable {
+  var items: [ModelNews]
+}
