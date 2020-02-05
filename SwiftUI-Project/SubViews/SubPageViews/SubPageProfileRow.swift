@@ -50,6 +50,6 @@ struct CircleBackGround: View {
   var body: some View {
     Circle()
       .fill(color)
-      .frame(width: 30, height: 30)
+      .frame(width: 40, height: 40)
   }
 }
