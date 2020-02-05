@@ -17,7 +17,7 @@ struct PageAssistant: View {
   
   var body: some View {
     VStack(alignment: .leading, spacing: 10) {
-      SubPageTopTitle(title: "个人顾问", subTitle: "遇到问题请留言", withArrow: false)
+      SubPageTopTitle(title: "客服服务", subTitle: "遇到问题请留言", withArrow: false)
         .padding(.leading, 20)
         .padding(.bottom, 20)
       if model.items.count == 0 {
